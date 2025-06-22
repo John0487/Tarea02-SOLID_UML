@@ -1,12 +1,25 @@
 package Clases;
 
-import Clases.Boleto;
-import Clases.Problema;
-import Clases.Asiento;
+import java.util.List;
+import java.util.Scanner;
 
 public class Usuario {
     private String nombre;
     private int ID;
+    
+    
+    public Funcion seleccionarFunción(List<Funcion> l_funciones){
+        int i=1;
+        System.out.println("Lista de Funciones: ");
+        for (Funcion f: l_funciones){
+            System.out.println(i + " "+ f.getNombre());
+            i++;
+        }
+        Scanner sc= new Scanner(System.in);
+        System.out.println("Ingrese el número de la función que desea ver");
+        int n_fun= sc.nextInt();
+        return l_funciones.get(n_fun);
+    }
     
     public Boleto comprarBoleto(){
         System.out.println("Comprando boleto...");
@@ -27,6 +40,10 @@ public class Usuario {
         } else {
             System.out.println("Vuelva a intentarlo");
         }
+    }
+    
+    public void ingresarAlSistema(){
+        System.out.println("Ingresando al sistema");
     }
     
     public String getNombre(){

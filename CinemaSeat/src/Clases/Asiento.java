@@ -10,4 +10,8 @@ public class Asiento {
     private TipoDeAsiento tipo;
     private EstadoAsiento estado;
     
+   public EstadoAsiento getEstadoAsiento(){
+       return this.estado;
+   }
+    
 }
