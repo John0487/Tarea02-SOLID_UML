@@ -16,8 +16,9 @@ public class Usuario {
         System.out.println("Seleccionando asiento...");
         return null;
     }
-    public void reportarProblema(Problema p){
+    public void reportarProblema(Problema p,AgenteDeSoporte a){
         System.out.println("Problema reportado: " + p.getDescripcion());
+        a.atenderProblema(p);
     }
     
     public String getNombre(){
