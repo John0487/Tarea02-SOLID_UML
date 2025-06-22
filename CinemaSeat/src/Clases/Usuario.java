@@ -21,6 +21,14 @@ public class Usuario {
         a.atenderProblema(p);
     }
     
+    public void realizarPago(Pago p){
+        if (p.pagoValido()==true){
+            System.out.println("Pago realizado con exito");
+        } else {
+            System.out.println("Vuelva a intentarlo");
+        }
+    }
+    
     public String getNombre(){
         return this.nombre;
     }

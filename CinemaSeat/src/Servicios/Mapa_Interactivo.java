@@ -11,4 +11,6 @@ public class Mapa_Interactivo {
         return this.asientos;
     }
     public void actualizarEstadoAsiento(Asiento asiento, EstadoAsiento estado){}
+    
+    public void mostrar(){}
 }

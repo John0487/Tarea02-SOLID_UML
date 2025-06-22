@@ -3,10 +3,9 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/Usuario/Documents/Downloads/CinemaSeat/src/Clases/Asiento.java</file>
-            <file>file:/C:/Users/Usuario/Documents/Downloads/CinemaSeat/src/Clases/Administrador.java</file>
-            <file>file:/C:/Users/Usuario/Documents/Downloads/CinemaSeat/src/Clases/AgenteDeSoporte.java</file>
-            <file>file:/C:/Users/Usuario/Documents/Downloads/CinemaSeat/src/Clases/Boleto.java</file>
+            <file>file:/C:/Users/Usuario/Documents/Downloads/CinemaSeat/src/Servicios/Temporizador.java</file>
+            <file>file:/C:/Users/Usuario/Documents/Downloads/CinemaSeat/src/Clases/Pago.java</file>
+            <file>file:/C:/Users/Usuario/Documents/Downloads/CinemaSeat/src/Servicios/Mapa_Interactivo.java</file>
             <file>file:/C:/Users/Usuario/Documents/Downloads/CinemaSeat/src/Clases/Usuario.java</file>
         </group>
     </open-files>

@@ -7,7 +7,7 @@ public class Pago {
     private double monto;
     private TipoDePago tipo;
     
-    public boolean pagoValido(){
+   public boolean pagoValido(){
         return monto>0;
     }
     

@@ -6,5 +6,4 @@ public class Temporizador {
     private int tiempo;
     
     public void LiberarAsientos(List<Asiento> asientos){}
-    
 }
